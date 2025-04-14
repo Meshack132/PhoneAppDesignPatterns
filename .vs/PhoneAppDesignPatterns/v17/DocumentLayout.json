@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|c:\\users\\e1009615\\dev\\phoneappdesignpatterns\\models\\payment\\paymentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|solutionrelative:models\\payment\\paymentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|c:\\users\\e1009615\\dev\\phoneappdesignpatterns\\models\\payment\\ipaymentstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|solutionrelative:models\\payment\\ipaymentstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|c:\\users\\e1009615\\dev\\phoneappdesignpatterns\\models\\payment\\strategies\\paypalpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|solutionrelative:models\\payment\\strategies\\paypalpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|c:\\users\\e1009615\\dev\\phoneappdesignpatterns\\models\\payment\\strategies\\creditcardpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|solutionrelative:models\\payment\\strategies\\creditcardpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|c:\\users\\e1009615\\dev\\phoneappdesignpatterns\\models\\payment\\strategies\\cryptopayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|solutionrelative:models\\payment\\strategies\\cryptopayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|c:\\users\\e1009615\\dev\\phoneappdesignpatterns\\models\\logging\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|solutionrelative:models\\logging\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|c:\\users\\e1009615\\dev\\phoneappdesignpatterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|c:\\users\\e1009615\\dev\\phoneappdesignpatterns\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|solutionrelative:controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|c:\\users\\e1009615\\dev\\phoneappdesignpatterns\\models\\order.cs\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|solutionrelative:models\\order.cs\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|c:\\users\\e1009615\\dev\\phoneappdesignpatterns\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|c:\\users\\e1009615\\dev\\phoneappdesignpatterns\\models\\logging\\iapplogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|solutionrelative:models\\logging\\iapplogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|c:\\users\\e1009615\\dev\\phoneappdesignpatterns\\models\\order.cs\\observers\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|solutionrelative:models\\order.cs\\observers\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|c:\\users\\e1009615\\dev\\phoneappdesignpatterns\\models\\order.cs\\observers\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|solutionrelative:models\\order.cs\\observers\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|c:\\users\\e1009615\\dev\\phoneappdesignpatterns\\models\\order.cs\\iorderobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74631DF-2955-46F3-B7B4-4B182938CFEC}|PhoneAppDesignPatterns.csproj|solutionrelative:models\\order.cs\\iorderobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CryptoPayment.cs",
+              "DocumentMoniker": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Models\\Payment\\Strategies\\CryptoPayment.cs",
+              "RelativeDocumentMoniker": "Models\\Payment\\Strategies\\CryptoPayment.cs",
+              "ToolTip": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Models\\Payment\\Strategies\\CryptoPayment.cs",
+              "RelativeToolTip": "Models\\Payment\\Strategies\\CryptoPayment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T07:57:27.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InventoryService.cs",
+              "DocumentMoniker": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Models\\Order.cs\\Observers\\InventoryService.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs\\Observers\\InventoryService.cs",
+              "ToolTip": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Models\\Order.cs\\Observers\\InventoryService.cs",
+              "RelativeToolTip": "Models\\Order.cs\\Observers\\InventoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T07:19:05.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Models\\Order.cs\\Observers\\NotificationService.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs\\Observers\\NotificationService.cs",
+              "ToolTip": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Models\\Order.cs\\Observers\\NotificationService.cs",
+              "RelativeToolTip": "Models\\Order.cs\\Observers\\NotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T07:16:35.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IOrderObserver.cs",
+              "DocumentMoniker": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Models\\Order.cs\\IOrderObserver.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs\\IOrderObserver.cs",
+              "ToolTip": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Models\\Order.cs\\IOrderObserver.cs",
+              "RelativeToolTip": "Models\\Order.cs\\IOrderObserver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T07:13:51.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Models\\Order.cs\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs\\Order.cs",
+              "ToolTip": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Models\\Order.cs\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs\\Order.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAqwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T07:12:26.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PayPalPayment.cs",
+              "DocumentMoniker": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Models\\Payment\\Strategies\\PayPalPayment.cs",
+              "RelativeDocumentMoniker": "Models\\Payment\\Strategies\\PayPalPayment.cs",
+              "ToolTip": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Models\\Payment\\Strategies\\PayPalPayment.cs",
+              "RelativeToolTip": "Models\\Payment\\Strategies\\PayPalPayment.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T07:08:08.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreditCardPayment.cs",
+              "DocumentMoniker": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Models\\Payment\\Strategies\\CreditCardPayment.cs",
+              "RelativeDocumentMoniker": "Models\\Payment\\Strategies\\CreditCardPayment.cs",
+              "ToolTip": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Models\\Payment\\Strategies\\CreditCardPayment.cs",
+              "RelativeToolTip": "Models\\Payment\\Strategies\\CreditCardPayment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T07:06:36.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaymentContext.cs",
+              "DocumentMoniker": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Models\\Payment\\PaymentContext.cs",
+              "RelativeDocumentMoniker": "Models\\Payment\\PaymentContext.cs",
+              "ToolTip": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Models\\Payment\\PaymentContext.cs",
+              "RelativeToolTip": "Models\\Payment\\PaymentContext.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwBcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T07:03:28.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPaymentStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Models\\Payment\\IPaymentStrategy.cs",
+              "RelativeDocumentMoniker": "Models\\Payment\\IPaymentStrategy.cs",
+              "ToolTip": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Models\\Payment\\IPaymentStrategy.cs",
+              "RelativeToolTip": "Models\\Payment\\IPaymentStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T07:02:09.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Models\\Logging\\Logger.cs",
+              "RelativeDocumentMoniker": "Models\\Logging\\Logger.cs",
+              "ToolTip": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Models\\Logging\\Logger.cs",
+              "RelativeToolTip": "Models\\Logging\\Logger.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T18:59:13.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAppLogger.cs",
+              "DocumentMoniker": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Models\\Logging\\IAppLogger.cs",
+              "RelativeDocumentMoniker": "Models\\Logging\\IAppLogger.cs",
+              "ToolTip": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Models\\Logging\\IAppLogger.cs",
+              "RelativeToolTip": "Models\\Logging\\IAppLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T18:57:48.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T18:55:47.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "Controllers\\PaymentController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T18:54:36.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\E1009615\\Dev\\PhoneAppDesignPatterns\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T14:28:21.062Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
