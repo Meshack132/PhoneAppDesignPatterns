@@ -1,0 +1,92 @@
+name: .NET Automated Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch: # Allows manual triggering
+
+env:
+  DOTNET_VERSION: '6.0.x'  # Default version (override below)
+  CONFIGURATION: 'Release'
+
+jobs:
+  build-and-test:
+    name: Build & Test (${{ matrix.dotnet }})
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        dotnet: [ '6.0.x', '7.0.x' ] # Multi-version testing
+        include:
+          - dotnet: '6.0.x'
+            publish: true # Only publish from LTS version
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup .NET ${{ matrix.dotnet }}
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: ${{ matrix.dotnet }}
+
+    - name: Cache dependencies
+      uses: actions/cache@v3
+      with:
+        path: |
+          ~/.nuget/packages
+          **/bin
+          **/obj
+        key: ${{ runner.os }}-dotnet-${{ hashFiles('**/*.csproj') }}
+        restore-keys: |
+          ${{ runner.os }}-dotnet-
+
+    - name: Restore
+      run: dotnet restore --locked-mode
+
+    - name: Build
+      run: dotnet build --no-restore --configuration ${{ env.CONFIGURATION }} --verbosity normal
+
+    - name: Test
+      run: dotnet test --no-build --verbosity normal --logger "trx;LogFileName=test-results.xml"
+      
+    - name: Publish Test Results
+      if: always() # Runs even if tests fail
+      uses: actions/upload-artifact@v3
+      with:
+        name: test-results-${{ matrix.dotnet }}
+        path: **/TestResults/*.trx
+
+    - name: Publish Application
+      if: matrix.publish == 'true' && github.ref == 'refs/heads/main'
+      run: |
+        dotnet publish -c ${{ env.CONFIGURATION }} -o ./publish
+        echo "PUBLISH_DIR=./publish" >> $GITHUB_ENV
+
+    - name: Upload Artifact
+      if: matrix.publish == 'true' && github.ref == 'refs/heads/main'
+      uses: actions/upload-artifact@v3
+      with:
+        name: app-package
+        path: ${{ env.PUBLISH_DIR }}
+        retention-days: 5
+
+  deploy:
+    name: Deploy to Staging
+    needs: build-and-test
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Download Artifact
+      uses: actions/download-artifact@v3
+      with:
+        name: app-package
+        path: ./publish
+
+    - name: Deploy (Simulated)
+      run: |
+        echo "Deployment would happen here!"
+        ls -R ./publish
